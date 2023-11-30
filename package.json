@@ -2,9 +2,9 @@
   "name": "starter-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --import=tsimp/import --test --watch **/*.test.ts",
     "dev": "node --import=tsimp/import --watch index.ts"
   },
   "keywords": [],
