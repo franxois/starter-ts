@@ -1,2 +1,7 @@
 node_modules
 .tsimp
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
