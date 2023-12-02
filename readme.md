@@ -4,8 +4,8 @@ No jest or nodemon, only node (>=20.6)
 
 ## Run tests
 
-`yarn test`
+`pnpm test`
 
 ## Run code
 
-`yarn dev`
+`pnpm dev`
