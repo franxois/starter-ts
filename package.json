@@ -4,9 +4,11 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
+    "clean": "rm -rf ./.tsimp",
     "test": "node --import=tsimp/import --watch --test **/*.test.ts",
     "test:ci": "node --import=tsimp/import --test **/*.test.ts",
-    "dev": "node --import=tsimp/import --watch src/index.ts"
+    "dev": "pnpm run clean ; node --import=tsimp/import --watch src/index.ts",
+    "tsc:check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
